@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  justify-content: center;
+
+  &__input {
+    width: 60%;
+    text-align: center;
+    padding: 20px 120px;
+    letter-spacing: 2.8px;
+    margin-bottom: 100px;
+  }
+}

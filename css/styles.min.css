@@ -1,0 +1,490 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  border: 12px solid #fff;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input {
+  width: 60%;
+  text-align: center;
+  padding: 20px 120px;
+  letter-spacing: 2.8px;
+  margin-bottom: 100px;
+}
+
+.button {
+  height: 55px;
+  width: 140px;
+  background: #5474fd;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+.button__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 25px;
+}
+
+.choose__btn {
+  display: block;
+  width: 220px;
+  height: 60px;
+  background-color: #5474fd;
+  text-align: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.choose__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.scroll {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.arrow-down {
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.arrow-down:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon-angle-down {
+  font-size: 20px;
+}
+
+.icons {
+  background: #333333;
+  text-align: center;
+  font-size: 36px;
+  padding: 100px 0;
+}
+
+.icons__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-search {
+  font-size: 60px;
+  color: #5474fd;
+}
+
+.icon-linkedin {
+  color: #00a2ff;
+}
+
+.icon-like {
+  font-size: 60px;
+  color: #00a2ff;
+}
+
+.icon-quote {
+  color: #00a2ff;
+  font-size: 30px;
+}
+
+.icon-check {
+  color: #ff6363;
+  font-size: 60px;
+}
+
+.spain {
+  background: url(../images/spain-1.jpg) no-repeat center;
+  padding: 100px 0;
+}
+
+.spain__title {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.spain__text {
+  margin-bottom: 30px;
+}
+
+.backgr {
+  width: 50%;
+  padding: 45px 30px;
+  background-color: rgba(8, 13, 15, 0.7);
+}
+
+.main {
+  background: url(../images/spain-2.jpg) no-repeat center;
+  padding: 100px 0;
+}
+
+.main__title {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.main__text {
+  margin-bottom: 30px;
+}
+
+.background__main {
+  width: 50%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  padding: 45px 30px;
+  background-color: rgba(8, 13, 15, 0.7);
+}
+
+.travel {
+  background: url(../images/travel.jpg) no-repeat center;
+  padding: 100px 0;
+}
+
+.travel__title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 90px;
+}
+
+.travel__blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.travel__img {
+  height: 100%;
+}
+
+.travel__description {
+  background: #333333;
+  padding: 50px 60px;
+  color: #e8e8e8;
+}
+
+.travel__author {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.travel__text {
+  line-height: 26px;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon/icomoon.eot?s5p8b6");
+  src: url("fonts/icomoon/icomoon.eot?s5p8b6#iefix") format("embedded-opentype"), url("fonts/icomoon/icomoon.ttf?s5p8b6") format("truetype"), url("fonts/icomoon/icomoon.woff?s5p8b6") format("woff"), url("fonts/icomoon/icomoon.svg?s5p8b6#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "\e900";
+}
+
+.icon-check:before {
+  content: "\e901";
+}
+
+.icon-facebook:before {
+  content: "\e902";
+}
+
+.icon-like:before {
+  content: "\e903";
+}
+
+.icon-linkedin:before {
+  content: "\e904";
+}
+
+.icon-pinterest:before {
+  content: "\e905";
+}
+
+.icon-quote:before {
+  content: "\e906";
+}
+
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-twitter:before {
+  content: "\e908";
+}
+
+.icon-youtube:before {
+  content: "\e909";
+}
+
+.header {
+  background: url(../images/header.jpg) no-repeat center;
+  text-align: center;
+  padding-top: 250px;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.header__description {
+  font-size: 22px;
+  letter-spacing: 6.82px;
+  margin-bottom: 45px;
+}
+
+.navigation {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #5474fd;
+}
+
+.menu {
+  margin: 35px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.menu__logo {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu__logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu__item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.choose {
+  background: url(../images/choose.jpg) no-repeat center;
+}
+
+.choose__title {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.choose__text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 80%;
+  opacity: 0.5;
+}
+
+.choose__item--mod {
+  padding-left: 100px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+.footer {
+  text-align: center;
+  background: #232323;
+  padding: 100px 0;
+}
+
+.footer__logo {
+  font-size: 24px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+.footer__slogan {
+  letter-spacing: 1.6px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=styles.min.css.map */

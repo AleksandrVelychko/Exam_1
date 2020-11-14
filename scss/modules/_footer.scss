@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  background: #232323;
+  padding: 100px 0;
+
+  &__logo {
+    font-size: 24px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+  }
+
+  &__slogan {
+    letter-spacing: 1.6px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,36 @@
+.button {
+  height: 55px;
+  width: 140px;
+  background: #5474fd;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: blue;
+  }
+
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 25px;
+  }
+}
+
+.choose__btn {
+  display: block;
+  width: 220px;
+  height: 60px;
+  background-color: #5474fd;
+  text-align: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
